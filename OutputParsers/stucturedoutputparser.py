@@ -40,3 +40,4 @@ chain = template | model | parser
 result = chain.invoke({'topic': "Langchain applications"})
 print('result:', result)
 
+print ("Testing the branch")
