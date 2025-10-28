@@ -39,6 +39,3 @@ template = PromptTemplate(
 chain = template | model | parser
 result = chain.invoke({'topic': "Langchain applications"})
 print('result:', result)
-
-print ("Testing the branch")
-print ("Testing the new branch")
